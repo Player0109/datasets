@@ -22,27 +22,21 @@ project, and has been carefully segmented and aligned.87
     [`tfds.audio.librispeech.Librispeech`](https://github.com/tensorflow/datasets/tree/master/tensorflow_datasets/audio/librispeech.py)
 *   **Versions**:
     *   **`1.1.0`** (default): No release notes.
-*   **Download size**: `Unknown size`
-*   **Dataset size**: `Unknown size`
+*   **Download size**: `57.14 GiB`
 *   **Auto-cached**
     ([documentation](https://www.tensorflow.org/datasets/performances#auto-caching)):
-    Unknown
+    No
 *   **Splits**:
 
-Split | Examples
-:---- | -------:
-
-*   **Features**:
-
-```python
-FeaturesDict({
-    'chapter_id': tf.int64,
-    'id': tf.string,
-    'speaker_id': tf.int64,
-    'speech': Audio(shape=(None,), dtype=tf.int64),
-    'text': Text(shape=(), dtype=tf.string),
-})
-```
+Split            | Examples
+:--------------- | -------:
+'dev_clean'      | 2,703
+'dev_other'      | 2,864
+'test_clean'     | 2,620
+'test_other'     | 2,939
+'train_clean100' | 28,539
+'train_clean360' | 104,014
+'train_other500' | 148,688
 
 *   **Supervised keys** (See
     [`as_supervised` doc](https://www.tensorflow.org/datasets/api_docs/python/tfds/load)):
@@ -63,11 +57,47 @@ FeaturesDict({
 ## librispeech/plain_text (default config)
 
 *   **Config description**: Transcriptions are in plain text.
+*   **Dataset size**: `304.47 GiB`
+*   **Features**:
+
+```python
+FeaturesDict({
+    'chapter_id': tf.int64,
+    'id': tf.string,
+    'speaker_id': tf.int64,
+    'speech': Audio(shape=(None,), dtype=tf.int64),
+    'text': Text(shape=(), dtype=tf.string),
+})
+```
 
 ## librispeech/subwords8k
 
 *   **Config description**: Transcriptions use the SubwordTextEncoder
+*   **Dataset size**: `304.44 GiB`
+*   **Features**:
+
+```python
+FeaturesDict({
+    'chapter_id': tf.int64,
+    'id': tf.string,
+    'speaker_id': tf.int64,
+    'speech': Audio(shape=(None,), dtype=tf.int64),
+    'text': Text(shape=(None,), dtype=tf.int64, encoder=<SubwordTextEncoder vocab_size=8215>),
+})
+```
 
 ## librispeech/subwords32k
 
 *   **Config description**: Transcriptions use the SubwordTextEncoder
+*   **Dataset size**: `304.44 GiB`
+*   **Features**:
+
+```python
+FeaturesDict({
+    'chapter_id': tf.int64,
+    'id': tf.string,
+    'speaker_id': tf.int64,
+    'speech': Audio(shape=(None,), dtype=tf.int64),
+    'text': Text(shape=(None,), dtype=tf.int64, encoder=<SubwordTextEncoder vocab_size=32550>),
+})
+```

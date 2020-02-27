@@ -51,7 +51,6 @@ review_body - The review text. review_date - The date the review was written.
     [`tfds.structured.amazon_us_reviews.AmazonUSReviews`](https://github.com/tensorflow/datasets/tree/master/tensorflow_datasets/structured/amazon_us_reviews.py)
 *   **Versions**:
     *   **`0.1.0`** (default): No release notes.
-*   **Download size**: `1.59 GiB`
 *   **Dataset size**: `Unknown size`
 *   **Auto-cached**
     ([documentation](https://www.tensorflow.org/datasets/performances#auto-caching)):
@@ -79,7 +78,6 @@ FeaturesDict({
     }),
 })
 ```
-
 *   **Supervised keys** (See
     [`as_supervised` doc](https://www.tensorflow.org/datasets/api_docs/python/tfds/load)):
     `None`
@@ -89,6 +87,7 @@ FeaturesDict({
 *   **Config description**: A dataset consisting of reviews of Amazon
     Wireless_v1_00 products in US marketplace. Each product has its own version
     as specified with it.
+*   **Download size**: `1.59 GiB`
 *   **Splits**:
 
 Split   | Examples
@@ -100,6 +99,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Watches_v1_00 products in US marketplace. Each product has its own version
     as specified with it.
+*   **Download size**: `155.42 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -111,6 +111,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Video_Games_v1_00 products in US marketplace. Each product has its own
     version as specified with it.
+*   **Download size**: `453.19 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -122,6 +123,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Video_DVD_v1_00 products in US marketplace. Each product has its own version
     as specified with it.
+*   **Download size**: `1.41 GiB`
 *   **Splits**:
 
 Split   | Examples
@@ -133,6 +135,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Video_v1_00 products in US marketplace. Each product has its own version as
     specified with it.
+*   **Download size**: `132.49 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -144,6 +147,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon Toys_v1_00
     products in US marketplace. Each product has its own version as specified
     with it.
+*   **Download size**: `799.61 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -155,6 +159,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Tools_v1_00 products in US marketplace. Each product has its own version as
     specified with it.
+*   **Download size**: `318.32 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -166,6 +171,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Sports_v1_00 products in US marketplace. Each product has its own version as
     specified with it.
+*   **Download size**: `832.06 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -177,6 +183,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Software_v1_00 products in US marketplace. Each product has its own version
     as specified with it.
+*   **Download size**: `89.66 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -188,6 +195,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Shoes_v1_00 products in US marketplace. Each product has its own version as
     specified with it.
+*   **Download size**: `612.50 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -199,6 +207,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Pet_Products_v1_00 products in US marketplace. Each product has its own
     version as specified with it.
+*   **Download size**: `491.92 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -210,6 +219,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Personal_Care_Appliances_v1_00 products in US marketplace. Each product has
     its own version as specified with it.
+*   **Download size**: `16.82 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -221,6 +231,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon PC_v1_00
     products in US marketplace. Each product has its own version as specified
     with it.
+*   **Download size**: `1.41 GiB`
 *   **Splits**:
 
 Split   | Examples
@@ -232,6 +243,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Outdoors_v1_00 products in US marketplace. Each product has its own version
     as specified with it.
+*   **Download size**: `428.16 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -243,6 +255,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Office_Products_v1_00 products in US marketplace. Each product has its own
     version as specified with it.
+*   **Download size**: `488.59 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -254,6 +267,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Musical_Instruments_v1_00 products in US marketplace. Each product has its
     own version as specified with it.
+*   **Download size**: `184.43 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -265,6 +279,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Music_v1_00 products in US marketplace. Each product has its own version as
     specified with it.
+*   **Download size**: `1.42 GiB`
 *   **Splits**:
 
 Split   | Examples
@@ -276,6 +291,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Mobile_Electronics_v1_00 products in US marketplace. Each product has its
     own version as specified with it.
+*   **Download size**: `21.81 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -287,6 +303,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Mobile_Apps_v1_00 products in US marketplace. Each product has its own
     version as specified with it.
+*   **Download size**: `532.11 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -298,6 +315,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Major_Appliances_v1_00 products in US marketplace. Each product has its own
     version as specified with it.
+*   **Download size**: `23.23 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -309,6 +327,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Luggage_v1_00 products in US marketplace. Each product has its own version
     as specified with it.
+*   **Download size**: `57.53 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -320,6 +339,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Lawn_and_Garden_v1_00 products in US marketplace. Each product has its own
     version as specified with it.
+*   **Download size**: `464.22 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -331,6 +351,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Kitchen_v1_00 products in US marketplace. Each product has its own version
     as specified with it.
+*   **Download size**: `887.63 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -342,6 +363,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Jewelry_v1_00 products in US marketplace. Each product has its own version
     as specified with it.
+*   **Download size**: `235.58 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -353,6 +375,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Home_Improvement_v1_00 products in US marketplace. Each product has its own
     version as specified with it.
+*   **Download size**: `480.02 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -364,6 +387,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Home_Entertainment_v1_00 products in US marketplace. Each product has its
     own version as specified with it.
+*   **Download size**: `184.22 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -375,6 +399,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon Home_v1_00
     products in US marketplace. Each product has its own version as specified
     with it.
+*   **Download size**: `1.01 GiB`
 *   **Splits**:
 
 Split   | Examples
@@ -386,6 +411,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Health_Personal_Care_v1_00 products in US marketplace. Each product has its
     own version as specified with it.
+*   **Download size**: `964.34 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -397,6 +423,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Grocery_v1_00 products in US marketplace. Each product has its own version
     as specified with it.
+*   **Download size**: `382.74 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -408,6 +435,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Gift_Card_v1_00 products in US marketplace. Each product has its own version
     as specified with it.
+*   **Download size**: `11.57 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -419,6 +447,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Furniture_v1_00 products in US marketplace. Each product has its own version
     as specified with it.
+*   **Download size**: `142.08 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -430,6 +459,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Electronics_v1_00 products in US marketplace. Each product has its own
     version as specified with it.
+*   **Download size**: `666.45 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -441,6 +471,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Digital_Video_Games_v1_00 products in US marketplace. Each product has its
     own version as specified with it.
+*   **Download size**: `26.17 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -452,6 +483,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Digital_Video_Download_v1_00 products in US marketplace. Each product has
     its own version as specified with it.
+*   **Download size**: `483.49 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -463,6 +495,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Digital_Software_v1_00 products in US marketplace. Each product has its own
     version as specified with it.
+*   **Download size**: `18.12 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -474,6 +507,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Digital_Music_Purchase_v1_00 products in US marketplace. Each product has
     its own version as specified with it.
+*   **Download size**: `241.82 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -485,6 +519,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Digital_Ebook_Purchase_v1_00 products in US marketplace. Each product has
     its own version as specified with it.
+*   **Download size**: `2.51 GiB`
 *   **Splits**:
 
 Split   | Examples
@@ -496,6 +531,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Camera_v1_00 products in US marketplace. Each product has its own version as
     specified with it.
+*   **Download size**: `422.15 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -507,6 +543,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Books_v1_00 products in US marketplace. Each product has its own version as
     specified with it.
+*   **Download size**: `2.55 GiB`
 *   **Splits**:
 
 Split   | Examples
@@ -518,6 +555,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Beauty_v1_00 products in US marketplace. Each product has its own version as
     specified with it.
+*   **Download size**: `871.73 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -529,6 +567,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon Baby_v1_00
     products in US marketplace. Each product has its own version as specified
     with it.
+*   **Download size**: `340.84 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -540,6 +579,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Automotive_v1_00 products in US marketplace. Each product has its own
     version as specified with it.
+*   **Download size**: `555.18 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -551,6 +591,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Apparel_v1_00 products in US marketplace. Each product has its own version
     as specified with it.
+*   **Download size**: `618.59 MiB`
 *   **Splits**:
 
 Split   | Examples
@@ -562,6 +603,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Digital_Ebook_Purchase_v1_01 products in US marketplace. Each product has
     its own version as specified with it.
+*   **Download size**: `1.21 GiB`
 *   **Splits**:
 
 Split   | Examples
@@ -573,6 +615,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Books_v1_01 products in US marketplace. Each product has its own version as
     specified with it.
+*   **Download size**: `2.51 GiB`
 *   **Splits**:
 
 Split   | Examples
@@ -584,6 +627,7 @@ Split   | Examples
 *   **Config description**: A dataset consisting of reviews of Amazon
     Books_v1_02 products in US marketplace. Each product has its own version as
     specified with it.
+*   **Download size**: `1.24 GiB`
 *   **Splits**:
 
 Split   | Examples
